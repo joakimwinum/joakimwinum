@@ -16,8 +16,10 @@ Prerequisite: *Container runtime*
 [[License](https://github.com/joakimwinum/php-snake/blob/main/LICENSE "License: MIT")] 
 [[CLI](# "Run from the command line")] 
 [[Games](# "Category: Games")] 
-**PHP Snake CLI Game**  
-  ```docker run -it --rm --name php-snake joakimwinum/php-snake```[^container_runtime_assumption]
+**PHP Snake CLI Game**[^container_runtime_assumption]
+  ```console
+  docker run -it --rm --name php-snake joakimwinum/php-snake
+  ```
 - [[2018](# "Year of release: 2018")] 
 [[PHP](# "Main programming language: PHP")] 
 [[Repository](https://github.com/joakimwinum/php-turingmachine "Source code")] 
@@ -25,8 +27,10 @@ Prerequisite: *Container runtime*
 [[License](https://github.com/joakimwinum/php-turingmachine/blob/main/LICENSE "License: MIT")] 
 [[CLI](# "Run from the command line")] 
 [[Emulators](# "Category: Emulators")] 
-**PHP Turing Machine**  
-  ```docker run -it --rm --name php-turingmachine joakimwinum/php-turingmachine```[^container_runtime_assumption]
+**PHP Turing Machine**[^container_runtime_assumption]
+  ```console
+  docker run -it --rm --name php-turingmachine joakimwinum/php-turingmachine
+  ```
 - [[2019](# "Year of release: 2019")] 
 [[Python](# "Main programming language: Python")] 
 [[Repository](https://github.com/joakimwinum/python-snake "Source code")] 
@@ -34,8 +38,10 @@ Prerequisite: *Container runtime*
 [[License](https://github.com/joakimwinum/python-snake/blob/main/LICENSE "License: MIT")] 
 [[CLI](# "Run from the command line")] 
 [[Games](# "Category: Games")] 
-**Python Snake CLI Game**  
-  ```docker run -it --rm --name python-snake joakimwinum/python-snake```[^container_runtime_assumption]
+**Python Snake CLI Game**[^container_runtime_assumption]
+  ```console
+  docker run -it --rm --name python-snake joakimwinum/python-snake
+  ```
 - [[2019](# "Year of release: 2019")] 
 [[JavaScript](# "Main programming language: JavaScript")] 
 [[Repository](https://github.com/joakimwinum/javascript-snake "Source code")] 
@@ -43,7 +49,9 @@ Prerequisite: *Container runtime*
 [[License](https://github.com/joakimwinum/javascript-snake/blob/main/LICENSE "License: MIT")] 
 [[Browser](http://localhost:8080/ "Run from the browser")] 
 [[Games](# "Category: Games")] 
-**JavaScript Snake**  
-  ```docker run --name javascript-snake -d -p 8080:80 joakimwinum/javascript-snake```[^container_runtime_assumption]
+**JavaScript Snake**[^container_runtime_assumption]
+  ```console
+  docker run --name javascript-snake -d -p 8080:80 joakimwinum/javascript-snake
+  ```
 
-[^container_runtime_assumption]: The code blocks are assuming that you are using [Docker Engine](https://docs.docker.com/engine/install/ "Install Docker Engine")  as your container runtime.
+[^container_runtime_assumption]: The code block is assuming that you are using [Docker Engine](https://docs.docker.com/engine/install/ "Install Docker Engine")  as your container runtime.
