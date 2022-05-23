@@ -51,7 +51,7 @@ Prerequisite: *Container runtime*
 [[Games](# "Category: Games")] 
 **JavaScript Snake**[^container_runtime_assumption]
   ```console
-  docker run --name javascript-snake -d -p 8080:80 joakimwinum/javascript-snake
+  docker run --rm --name javascript-snake -p 8080:80 joakimwinum/javascript-snake
   ```
 
 [^container_runtime_assumption]: The code block is assuming that you are using [Docker Engine](https://docs.docker.com/engine/install/ "Install Docker Engine")  as your container runtime.
