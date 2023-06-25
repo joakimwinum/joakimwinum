@@ -33,25 +33,25 @@ Prerequisite: *Container runtime*
   ```
 - [[2019](# "Year of release: 2019")] 
 [[Python](# "Main programming language: Python")] 
-[[Repository](https://github.com/joakimwinum/python-snake "Source code")] 
-[[Package](https://hub.docker.com/r/joakimwinum/python-snake "Container image")] 
-[[License](https://github.com/joakimwinum/python-snake/blob/main/LICENSE "License: MIT")] 
+[[Repository](https://github.com/joakimwinum/py-snake "Source code")] 
+[[Package](https://hub.docker.com/r/joakimwinum/py-snake "Container image")] 
+[[License](https://github.com/joakimwinum/py-snake/blob/main/LICENSE "License: MIT")] 
 [[CLI](# "Run from the command line")] 
 [[Games](# "Category: Games")] 
-**Python Snake CLI Game**[^container_runtime_assumption]
+**Py Snake CLI Game**[^container_runtime_assumption]
   ```console
-  docker run -it --rm --name python-snake joakimwinum/python-snake
+  docker run -it --rm --name py-snake joakimwinum/py-snake
   ```
 - [[2019](# "Year of release: 2019")] 
 [[JavaScript](# "Main programming language: JavaScript")] 
-[[Repository](https://github.com/joakimwinum/javascript-snake "Source code")] 
-[[Package](https://hub.docker.com/r/joakimwinum/javascript-snake "Container image")] 
-[[License](https://github.com/joakimwinum/javascript-snake/blob/main/LICENSE "License: MIT")] 
+[[Repository](https://github.com/joakimwinum/js-snake "Source code")] 
+[[Package](https://hub.docker.com/r/joakimwinum/js-snake "Container image")] 
+[[License](https://github.com/joakimwinum/js-snake/blob/main/LICENSE "License: MIT")] 
 [[Browser](http://localhost:8080/ "Run from the browser")] 
 [[Games](# "Category: Games")] 
-**JavaScript Snake**[^container_runtime_assumption]
+**JS Snake**[^container_runtime_assumption]
   ```console
-  docker run --rm --name javascript-snake -p 8080:80 joakimwinum/javascript-snake
+  docker run --rm --name js-snake -p 8080:80 joakimwinum/js-snake
   ```
 
 [^container_runtime_assumption]: The code block is assuming that you are using [Docker Engine](https://docs.docker.com/engine/install/ "Install Docker Engine")  as your container runtime.
